@@ -14,6 +14,7 @@
 	<a href="#about">About</a> •
 	<a href="#how-to-use">How to use</a> •
 	<a href="#mandatory">Mandatory</a> •
+	<a href="#disclaimer">Disclaimer</a> •
 	<a href="#testers">Testers</a> •
 	<a href="#license">License</a>
 </p>
@@ -63,9 +64,10 @@ At 42 School, it is expected that almost every project is written in accordance 
 - No more than 25 lines per function and 5 functions per file
 - No assigns and declarations in the same line (unless static)
 - No more than 5 variables in 1 function
+- ...
 ```
 
-These are some of the rules. <a href="https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf">Click here</a> for more information on 42 norms.
+<a href="https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf">Click here</a> for more information on 42 norms.
 
 ## TESTERS
 * [Francinette](https://github.com/xicodomingues/francinette)
