@@ -56,7 +56,7 @@ This ft_printf function supports several format specifiers, described below.
 * ``%x`` or ``%X`` - Prints an unsigned integer in hexadecimal format
 
 ## DISCLAIMER
-At 42School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
+At 42 School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
 
 ```bash
 - No for, do while, switch, case or goto are allowed
@@ -65,7 +65,8 @@ At 42School, it is expected that almost every project is written in accordance w
 - No more than 5 variables in 1 function
 ```
 
-These are some of the rules.<a href="https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf">Click here</a> for more information on 42 norms.
+These are some of the rules.
+<a href="https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf">Click here</a> for more information on 42 norms.
 
 ## TESTERS
 * [Francinette](https://github.com/xicodomingues/francinette)
