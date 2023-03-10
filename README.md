@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/jotavare/jotavare/blob/main/42_banner/42_banner_ft_printf.png">
+  <img src="https://github.com/jotavare/jotavare/blob/main/42/banner/42_banner_ft_printf.png">
 </p>
 
 <p align="center">
@@ -66,7 +66,7 @@ At 42School, almost every project must be written in accordance to the Norm, the
 ... 
 ```
 
-<a href="https://github.com/jotavare/libft/blob/master/subject/en_subject_ft_printf.pdf">Click here</a> for more information on 42 norm.
+<a href="https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf">Click here</a> for more information on 42 norm.
 
 ## TESTERS
 * [Francinette](https://github.com/xicodomingues/francinette)
