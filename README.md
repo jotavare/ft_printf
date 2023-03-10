@@ -66,6 +66,7 @@ At 42 School, it is expected that almost every project is written in accordance 
 ```
 
 These are some of the rules.
+
 <a href="https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf">Click here</a> for more information on 42 norms.
 
 ## TESTERS
