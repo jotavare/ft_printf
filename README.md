@@ -21,7 +21,7 @@
 ## ABOUT
 As part of the 42 school curriculum, we are required to complete the ft_printf project, which involves recreating the well-known C library function, printf. This project provides a valuable learning opportunity in variadic arguments and structures, particularly if we intend to incorporate additional flags into our implementation of printf.
 
-<a href="https://github.com/jotavare/libft/blob/master/subject/en_subject_ft_printf.pdf">Click here</a> for the subject of this project.
+<a href="https://github.com/jotavare/ft_printf/blob/master/subject/en_subject_ft_printf.pdf">Click here</a> for the subject of this project.
 
 ## HOW TO USE
 #### COMPILE
