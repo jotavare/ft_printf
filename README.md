@@ -4,10 +4,10 @@
 
 <p align="center">
 	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square" />
-	<img src="https://img.shields.io/badge/evaluated-18%20%2F%2012%20%2F%202022-success?color=%2312bab9&style=flat-square" />
+	<img src="https://img.shields.io/badge/evaluated-22%20%2F%2012%20%2F%202022-success?color=%2312bab9&style=flat-square" />
 	<img src="https://img.shields.io/badge/score-104%20%2F%20100-success?color=%2312bab9&style=flat-square" />
-	<img src="https://img.shields.io/github/languages/top/jotavare/libft?color=%2312bab9&style=flat-square" />
-	<img src="https://img.shields.io/github/last-commit/jotavare/libft?color=%2312bab9&style=flat-square" />
+	<img src="https://img.shields.io/github/languages/top/jotavare/ft_printf?color=%2312bab9&style=flat-square" />
+	<img src="https://img.shields.io/github/last-commit/jotavare/ft_printf?color=%2312bab9&style=flat-square" />
 </p>
 
 <p align="center">
