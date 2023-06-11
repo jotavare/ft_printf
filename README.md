@@ -28,13 +28,19 @@ As part of the 42 school curriculum, we are required to complete the ft_printf p
 ## HOW TO USE
 #### COMPILE
 #### 1º - Clone the repository
-```bash
+```
 git clone git@github.com:jotavare/ft_printf.git
 ```
+
 #### 2º - Enter the project folder and run `make`
-```bash
+```
 cd ft_printf\ft_printf
 make
+```
+
+#### 3º - To use in your code, include the header
+```
+#include "ft_printf.h"
 ```
 
 #### MAKEFILE RULES
