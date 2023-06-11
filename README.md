@@ -16,8 +16,7 @@
 	<a href="#about">About</a> •
 	<a href="#how-to-use">How to use</a> •
 	<a href="#mandatory">Mandatory</a> •
-	<a href="#disclaimer">Disclaimer</a> •
-	<a href="#testers">Testers</a> •
+	<a href="#norminette">Norminette</a> •
 	<a href="#license">License</a>
 </p>
 
@@ -40,40 +39,38 @@ make
 
 #### MAKEFILE RULES
 
-``make`` or ``make all`` - Compile ft_printf.
+`make` or `make all` - Compile ft_printf.
 
-``make clean`` - Delete all .o (object files) files.
+`make clean` - Delete all .o (object files) files.
 
-``make fclean`` - Delete all .o (object files) and .a (executable) files.
+`make fclean` - Delete all .o (object files) and .a (executable) files.
 
-``make re`` - use rules `fclean` + `all`
+`make re` - use rules `fclean` + `all`.
 
 ## MANDATORY
 This ft_printf function supports several format specifiers, described below.
 
-* ``%c`` - Prints a single character
-* ``%s`` - Prints a string
-* ``%p`` - Prints a pointer adress
-* ``%d`` or ``%i`` - Prints a signed integer
-* ``%u`` - Prints an unsigned integer
-* ``%x`` or ``%X`` - Prints an unsigned integer in hexadecimal format
+* `%c` - Prints a single character
+* `%s` - Prints a string
+* `%p` - Prints a pointer adress
+* `%d` or `%i` - Prints a signed integer
+* `%u` - Prints an unsigned integer
+* `%x` or `%X` - Prints an unsigned integer in hexadecimal format
 
-## DISCLAIMER
+## NORMINETTE
 At 42 School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
 
-```bash
-- No for, do while, switch, case or goto are allowed
-- No more than 25 lines per function and 5 functions per file
-- No assigns and declarations in the same line (unless static)
-- No more than 5 variables in 1 function
+```
+- No for, do...while, switch, case, goto, ternary operators and variable lenght arrays are allowed;
+- Each function must be maximum 25 lines, not counting the function's own curly brackets;
+- Each line must be at most 80 columns wide, comments included;
+- A function can take 4 named parameters maximum;
+- No assigns and declarations in the same line (unless static);
+- You can't declare more than 5 variables per function;
 - ...
 ```
 
 <a href="https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf">Click here</a> for more information on 42 norms.
-
-## TESTERS
-* [Francinette](https://github.com/xicodomingues/francinette)
-* [printfTester](https://github.com/Tripouille/printfTester)
 
 ## LICENSE
 <p>
