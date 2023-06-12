@@ -45,13 +45,13 @@ make
 
 #### MAKEFILE RULES
 
-`make` or `make all` - Compile ft_printf.
+`make` or `make all` - Compile ft_printf files.
 
 `make clean` - Delete all .o (object files) files.
 
 `make fclean` - Delete all .o (object files) and .a (executable) files.
 
-`make re` - use rules `fclean` + `all`.
+`make re` - Use rules `fclean` + `all`.
 
 ## MANDATORY
 This ft_printf function supports several format specifiers, described below.
