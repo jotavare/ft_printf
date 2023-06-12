@@ -35,7 +35,7 @@ git clone git@github.com:jotavare/ft_printf.git
 
 #### 2º - Enter the project folder and run `make`
 ```bash
-cd ft_printf\ft_printf
+cd ft_printf/ft_printf
 make
 ```
 
