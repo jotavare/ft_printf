@@ -16,6 +16,7 @@
 	<a href="#about">About</a> •
 	<a href="#how-to-use">How to use</a> •
 	<a href="#mandatory">Mandatory</a> •
+	<a href="#bonus">Bonus</a> •
 	<a href="#norminette">Norminette</a> •
 	<a href="#license">License</a>
 </p>
@@ -68,7 +69,7 @@ This ft_printf function supports several format specifiers, described below.
 
 ## BONUS
 
-- [x] Manage any combination of the following flags: `-O` and the field minimum width under all conversions.
+- [ ] Manage any combination of the following flags: `-O` and the field minimum width under all conversions.
 - [ ] Manage all the following flags: `#` ` ` `+`.
 
 ## NORMINETTE
