@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square" />
-	<img src="https://img.shields.io/badge/evaluated-22%20%2F%2012%20%2F%202022-success?color=%2312bab9&style=flat-square" />
-	<img src="https://img.shields.io/badge/score-104%20%2F%20100-success?color=%2312bab9&style=flat-square" />
-	<img src="https://img.shields.io/github/languages/top/jotavare/ft_printf?color=%2312bab9&style=flat-square" />
-	<img src="https://img.shields.io/github/last-commit/jotavare/ft_printf?color=%2312bab9&style=flat-square" />
+	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square"/>
+	<img src="https://img.shields.io/badge/evaluated-22%20%2F%2012%20%2F%202022-success?color=%2312bab9&style=flat-square"/>
+	<img src="https://img.shields.io/badge/score-104%20%2F%20100-success?color=%2312bab9&style=flat-square"/>
+	<img src="https://img.shields.io/github/languages/top/jotavare/ft_printf?color=%2312bab9&style=flat-square"/>
+	<img src="https://img.shields.io/github/last-commit/jotavare/ft_printf?color=%2312bab9&style=flat-square"/>
 	<a href='https://www.linkedin.com/in/joaoptoliveira' target="_blank"><img alt='Linkedin' src='https://img.shields.io/badge/LinkedIn-100000?style=flat-square&logo=Linkedin&logoColor=white&labelColor=0A66C2&color=0A66C2'/></a>
 	<a href='https://profile.intra.42.fr/users/jotavare' target="_blank"><img alt='42' src='https://img.shields.io/badge/Porto-100000?style=flat-square&logo=42&logoColor=white&labelColor=000000&color=000000'/></a>
 </p>
@@ -22,7 +22,7 @@
 </p>
 
 ## ABOUT
-As part of the 42 common core, we are required to complete the ft_printf project, which involves recreating the well-known C library function, printf. This project provides a valuable learning opportunity in variadic arguments and structures, particularly if we intend to incorporate additional flags into our implementation of printf.
+This project involved recreating the well-known C library function, printf. This function provides a valuable learning opportunity in variadic arguments and structures, particularly if we intend to incorporate additional flags into our implementation of printf.
 
 <a href="https://github.com/jotavare/ft_printf/blob/master/subject/en_subject_ft_printf.pdf">Click here</a> for the subject of this project.
 
@@ -65,7 +65,7 @@ This ft_printf function supports several format specifiers, described below.
 - [x] `%u` - Prints an unsigned decimal (base 10) number.
 - [x] `%x` - Print a number in hexadecimal (base 16) lowercase format.
 - [x] `%X` - Print a number in hexadecimal (base 16) uppercase format.
-- [x] `%%` - Print a percent sign.
+- [x] `%%` - Print a percentage sign.
 
 ## BONUS
 
@@ -73,23 +73,23 @@ This ft_printf function supports several format specifiers, described below.
 - [ ] Manage all the following flags: `#` ` ` `+`.
 
 ## NORMINETTE
-At 42 School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
+At 42 School, it is expected that almost every project is written following the Norm, which is the coding standard of the school.
 
 ```
-- No for, do...while, switch, case, goto, ternary operators and variable-length arrays are allowed
-- Each function must be a maximum of 25 lines, not counting the function's curly brackets
-- Each line must be at most 80 columns wide, comments included
-- A function can take 4 named parameters maximum
-- No assigns and declarations in the same line (unless static)
-- You can't declare more than 5 variables per function
+- No for, do...while, switch, case, goto, ternary operators, or variable-length arrays allowed;
+- Each function must be a maximum of 25 lines, not counting the function's curly brackets;
+- Each line must be at most 80 columns wide, with comments included;
+- A function can take 4 named parameters maximum;
+- No assigns and declarations in the same line (unless static);
+- You can't declare more than 5 variables per function;
 - ...
 ```
 
 * [42 Norms](https://github.com/42School/norminette/blob/master/pdf/en.norm.pdf) - Information about 42 code norms. `PDF`
-* [Norminette](https://github.com/42School/norminette) - Tool by 42, to respect the code norm. `GitHub`
+* [Norminette](https://github.com/42School/norminette) - Tool to respect the code norm, made by 42. `GitHub`
 * [42 Header](https://github.com/42Paris/42header) - 42 header for Vim. `GitHub`
 
 ## LICENSE
 <p>
-This work is published under the terms of <a href="https://github.com/jotavare/jotavare/blob/main/LICENSE">42 Unlicense</a>.
+This work is published under the terms of <a href="https://github.com/jotavare/ft_printf/blob/main/LICENSE">Unlicense</a>.
 </p>
