@@ -27,7 +27,6 @@ This project involved recreating the well-known C library function, printf. This
 <a href="https://github.com/jotavare/ft_printf/blob/master/subject/en_subject_ft_printf.pdf">Click here</a> for the subject of this project.
 
 ## HOW TO USE
-#### COMPILING AND EXECUTION
 #### 1º - Clone the repository
 ```git
 git clone git@github.com:jotavare/ft_printf.git
