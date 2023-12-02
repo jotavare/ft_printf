@@ -22,7 +22,7 @@
 </p>
 
 ## ABOUT
-This project involved recreating the well-known C library function, printf. This function provides a valuable learning opportunity in variadic arguments and structures, particularly if we intend to incorporate additional flags into our implementation of printf.
+This project involved recreating the well-known C library function, printf. This provided a valuable learning opportunity in variadic arguments and structures, particularly if we intend to incorporate additional flags into our implementation of printf.
 
 <a href="https://github.com/jotavare/ft_printf/blob/master/subject/en_subject_ft_printf.pdf">Click here</a> for the subject of this project.
 
@@ -57,20 +57,20 @@ make
 ## MANDATORY
 This ft_printf function supports several format specifiers, described below.
 
-- [x] `%c` - Print a single character.
-- [x] `%s` - Print a string.
-- [x] `%p` - Print void * pointer argument in hexadecimal format.
-- [x] `%d` - Print a decimal (base 10) number.
-- [x] `%i` - Print an integer in base 10.
-- [x] `%u` - Prints an unsigned decimal (base 10) number.
-- [x] `%x` - Print a number in hexadecimal (base 16) lowercase format.
-- [x] `%X` - Print a number in hexadecimal (base 16) uppercase format.
-- [x] `%%` - Print a percentage sign.
+- [x] `%c` - Print a single character;
+- [x] `%s` - Print a string;
+- [x] `%p` - Print void * pointer argument in hexadecimal format;
+- [x] `%d` - Print a decimal (base 10) number;
+- [x] `%i` - Print an integer in base 10;
+- [x] `%u` - Prints an unsigned decimal (base 10) number;
+- [x] `%x` - Print a number in hexadecimal (base 16) lowercase format;
+- [x] `%X` - Print a number in hexadecimal (base 16) uppercase format;
+- [x] `%%` - Print a percentage sign;
 
 ## BONUS
 
-- [ ] Manage any combination of the following flags: `-O` and the field minimum width under all conversions.
-- [ ] Manage all the following flags: `#` ` ` `+`.
+- [ ] Manage any combination of the following flags: `-O` and the field minimum width under all conversions;
+- [ ] Manage all the following flags: `#` ` ` `+`;
 
 ## NORMINETTE
 At 42 School, it is expected that almost every project is written following the Norm, which is the coding standard of the school.
