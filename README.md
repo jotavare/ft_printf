@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/jotavare/jotavare/blob/main/42/banner/new/42_ft_printf_banner_new.png">
+  <img src="https://github.com/jotavare/jotavare/blob/main/42/banners/piscine_and_common_core/github_piscine_and_common_core_banner_ft_printf.png">
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
 </p>
 
 ## ABOUT
-As part of the 42 curriculum, we are required to complete the ft_printf project, which involves recreating the well-known C library function, printf. This project provides a valuable learning opportunity in variadic arguments and structures, particularly if we intend to incorporate additional flags into our implementation of printf.
+As part of the 42 common core, we are required to complete the ft_printf project, which involves recreating the well-known C library function, printf. This project provides a valuable learning opportunity in variadic arguments and structures, particularly if we intend to incorporate additional flags into our implementation of printf.
 
 <a href="https://github.com/jotavare/ft_printf/blob/master/subject/en_subject_ft_printf.pdf">Click here</a> for the subject of this project.
 
@@ -85,7 +85,7 @@ At 42 School, it is expected that almost every project is written in accordance 
 - ...
 ```
 
-* [42 Norms](https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf) - Information about 42 code norms. `PDF`
+* [42 Norms](https://github.com/42School/norminette/blob/master/pdf/en.norm.pdf) - Information about 42 code norms. `PDF`
 * [Norminette](https://github.com/42School/norminette) - Tool by 42, to respect the code norm. `GitHub`
 * [42 Header](https://github.com/42Paris/42header) - 42 header for Vim. `GitHub`
 
