@@ -55,8 +55,7 @@ make
 `make re` - Use rules `fclean` + `all`.
 
 ## MANDATORY
-This ft_printf function supports several format specifiers, described below.
-
+> This ft_printf function supports several format specifiers, described below:
 - [x] `%c` - Print a single character;
 - [x] `%s` - Print a string;
 - [x] `%p` - Print void * pointer argument in hexadecimal format;
@@ -68,12 +67,11 @@ This ft_printf function supports several format specifiers, described below.
 - [x] `%%` - Print a percentage sign;
 
 ## BONUS
-
 - [ ] Manage any combination of the following flags: `-O` and the field minimum width under all conversions;
 - [ ] Manage all the following flags: `#` ` ` `+`;
 
 ## NORMINETTE
-At 42 School, it is expected that almost every project is written following the Norm, which is the coding standard of the school.
+> At 42 School, it is expected that almost every project is written following the Norm, which is the coding standard of the school.
 
 ```
 - No for, do...while, switch, case, goto, ternary operators, or variable-length arrays allowed;
