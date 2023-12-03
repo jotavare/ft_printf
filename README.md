@@ -24,8 +24,8 @@
 ## ABOUT
 This project involved recreating the well-known C library function, printf. This provided a valuable learning opportunity in variadic arguments and structures, particularly if we intend to incorporate additional flags into our implementation of print.
 
-- [Subject](https://github.com/jotavare/ft_printf/blob/master/subject/en_subject_ft_printf.pdf)
-- [References](https://github.com/jotavare/42-resources#01-ft_printf)
+- [Subject](https://github.com/jotavare/ft_printf/blob/master/subject/en_subject_ft_printf.pdf) `PDF`
+- [References](https://github.com/jotavare/42-resources#01-ft_printf) `GitHub`
 
 ## HOW TO USE
 #### 1º - Clone the repository
