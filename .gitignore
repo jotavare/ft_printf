@@ -5,3 +5,16 @@
 # Build output: the objects and the archive the Makefile produces.
 *.o
 *.a
+
+# Editor and OS droppings.
+.vscode/
+.idea/
+*~
+.DS_Store
+Thumbs.db
+
+# Never commit credentials.
+.env
+.env.*
+*.pem
+*.key
