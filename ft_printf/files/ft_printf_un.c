@@ -54,7 +54,7 @@ char	*ft_utoa(unsigned int n)
 	int		len;
 
 	len = ft_length_num(n);
-	num = (char *)malloc((len + 1) * sizeof(char *));
+	num = (char *)malloc((len + 1) * sizeof(char));
 	if (!num)
 		return (NULL);
 	num[len] = '\0';
