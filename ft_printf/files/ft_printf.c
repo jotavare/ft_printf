@@ -52,7 +52,7 @@ int	ft_printf(const char *format, ...)
 	va_start(args, format);
 	while (format[i])
 	{
-		if (format[i] == '%')
+		if (format[i] == '%' && format[i + 1])
 		{
 			length += ft_printf_arg(args, format[i + 1]);
 			i++;
