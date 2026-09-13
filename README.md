@@ -18,12 +18,16 @@
 	<a href="#mandatory">Mandatory</a> •
 	<a href="#bonus">Bonus</a> •
 	<a href="#norminette">Norminette</a> •
+	<a href="#debugging">Debugging</a> •
 	<a href="#contributing">Contributing</a> •
 	<a href="#license">License</a>
 </p>
 
 ## ABOUT
 This project involved recreating the well-known C library function, printf. This provided a valuable learning opportunity in variadic arguments and structures, particularly if we intend to incorporate additional flags into our implementation of print.
+
+> [!NOTE]
+> For the rest of the projects and exams in the cursus, <a href="https://github.com/jotavare/42-common-core">click here</a>.
 
 ## HOW TO USE
 #### 1º - Clone the repository
@@ -85,10 +89,37 @@ make
 * [Norminette](https://github.com/42School/norminette) - Tool to respect the code norm, made by 42. `GitHub`
 * [42 Header](https://github.com/42Paris/42header) - 42 header for Vim. `GitHub`
 
+## DEBUGGING
+> Conversions are written straight to the file descriptor rather than into a
+> buffer, so the things that go wrong here are a miscounted return value and a
+> pointer read that runs past its argument.
+
+Compile with `-g` to keep the symbols the debuggers need:
+
+```bash
+cc -Wall -Wextra -Werror -g main.c libftprintf.a
+```
+
+`valgrind --leak-check=full ./a.out` - Report memory that was allocated and never freed; the number and pointer conversions allocate while building their output.
+
+`valgrind --track-origins=yes ./a.out` - Trace an uninitialised value back to where it came from, which is what a wrong `va_arg` type looks like.
+
+`gdb ./a.out` - Step through a conversion and watch the running character count.
+
+`cc -fsanitize=address -g ...` - Catches leaks and out-of-bounds reads without valgrind, and runs much faster.
+
+The return value has to match what the real `printf` reports, so compare both on
+the same format string rather than only looking at what is printed. `INT_MIN`,
+an empty string and `%%` are the usual places an implementation disagrees.
+
+* [GDB](https://www.sourceware.org/gdb/) - The GNU debugger. `Website`
+* [Valgrind](https://valgrind.org/docs/manual/quick-start.html) - Quick start guide. `Website`
+
 ## CONTRIBUTING
 
-If you find any issues or have suggestions for improvements, feel free to fork the repository and open an issue or submit a pull request.
+This repository documents work already submitted and graded, so it is not open
+to changes. Feel free to fork it if any of it is useful to you.
 
 ## LICENSE
 
-This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/ft_printf/blob/master/LICENSE) file.
+This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/ft_printf/blob/main/LICENSE) file.

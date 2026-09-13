@@ -1,3 +1,7 @@
 *.out
 *.pdf
 *.swp
+
+# Build output: the objects and the archive the Makefile produces.
+*.o
+*.a
