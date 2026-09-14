@@ -24,7 +24,7 @@
 </p>
 
 ## ABOUT
-This project involved recreating the well-known C library function, printf. This provided a valuable learning opportunity in variadic arguments and structures, particularly if we intend to incorporate additional flags into our implementation of print.
+This project involved recreating the well-known C library function, printf. This provided a valuable learning opportunity in variadic arguments and structures, particularly when incorporating additional flags into the implementation.
 
 > [!NOTE]
 > For the rest of the projects and exams in the cursus, <a href="https://github.com/jotavare/42-common-core">click here</a>.
